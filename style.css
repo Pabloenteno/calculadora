@@ -1,0 +1,108 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+main{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.numeros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.resultado{
+    background-color: #000;
+    height: 6vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   padding-right: 20px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+
+   
+}
+button{
+    border: none;
+}
+.calculadora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 35vh;
+    width: 14vw;
+    background-color: #333;
+    border: solid black 1px;
+    gap: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px ;
+    
+}
+.numero{
+    height: 6vh;
+    width: 3vw;
+    color: #fff;
+    background-color: #505050;
+    border-radius: 50px;
+   
+}
+.numero:active{
+    color: #fff;
+    background-color: #6f6f6f;
+}
+.numerot{
+    height: 6vh;
+    width: 3vw;
+    color: #000;
+    background-color: #a6a6a6;
+    border-radius: 50px;
+}
+.numerot:active{
+    color: #000;
+    background-color: #bcbcbc;
+}
+.numeroh{
+    height: 6vh;
+    width: 3vw;
+    color: #fff;
+    background-color: #ff9500;
+    border-radius: 50px;
+}
+.numeroh:active{
+    color: #fff;
+    background-color: #fdab39;
+}
+#z{
+    
+    height: 6vh;
+    width: 6.3vw;
+    color: #fff;
+    background-color: #505050;
+    border-radius: 50px;
+}
+   
+#z:active{
+    color: #fff;
+    background-color: #6f6f6f;
+}
+
+.sinais{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#igual{
+    height: 19.3vh;
+    width: 3vw;
+    color: #fff;
+    border-radius: 50px;
+}
